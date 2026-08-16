@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Local configuration
+.env
+server/.env
+
+# Build outputs
+dist/
+client/dist/
+
+# Editor and system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+
+# Vite cache
+client/.vite/
